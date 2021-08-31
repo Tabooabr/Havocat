@@ -1,0 +1,805 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'es' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+I:/Git/Brackeys 2021/Havocat/HavoCat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52559
+Successfully changed project path to: I:/Git/Brackeys 2021/Havocat/HavoCat
+I:/Git/Brackeys 2021/Havocat/HavoCat
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path I:/Git/Brackeys 2021/Havocat/HavoCat/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001851 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (356ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (734ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 66.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 2.078100 ms (FindLiveObjects: 0.112700 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.882900 ms  DeleteObjects: 0.046800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/LowPolyInterior
+  artifactKey: Guid(e262568bb27e4434f803bd0245580ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior using Guid(e262568bb27e4434f803bd0245580ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633b555db06a770995c134fa7af5c2f5') in 0.008204 seconds 
+  Import took 0.009981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.573679 seconds.
+  path: Assets/LowPolyInterior/LowPolyInterior_HDRP_2018.4.unitypackage
+  artifactKey: Guid(ea3309922956b4c4db1b6812469ce594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/LowPolyInterior_HDRP_2018.4.unitypackage using Guid(ea3309922956b4c4db1b6812469ce594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c8d45d6f88fafee202099967b0614d') in 0.030447 seconds 
+  Import took 0.033021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.824059 seconds.
+  path: Assets/LowPolyInterior/Scenes
+  artifactKey: Guid(f0473896a9560a249811bddfb0f776a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Scenes using Guid(f0473896a9560a249811bddfb0f776a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bde2c5bbdbbd1cdb24e7635b490e6c') in 0.008377 seconds 
+  Import took 0.011082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924850 seconds.
+  path: Assets/LowPolyInterior/Scenes/LowPolyInterior_Overview.unity
+  artifactKey: Guid(f6ee824980092fa479c97b1144c3a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Scenes/LowPolyInterior_Overview.unity using Guid(f6ee824980092fa479c97b1144c3a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b26fb2599bb4d92ed2bb13e3d9f8dd') in 0.009792 seconds 
+  Import took 0.012342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.407462 seconds.
+  path: Assets/LowPolyInterior/Scenes/LowPolyInterior_Demo.unity
+  artifactKey: Guid(be7da2d78e467814186fe24a4e542b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Scenes/LowPolyInterior_Demo.unity using Guid(be7da2d78e467814186fe24a4e542b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd40ef0721f0b70eb596e47b26758f5') in 0.006791 seconds 
+  Import took 0.008960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.414740 seconds.
+  path: Assets/LowPolyInterior/Materials
+  artifactKey: Guid(0558596f9e5cb2349bda00d1839d98b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials using Guid(0558596f9e5cb2349bda00d1839d98b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908b41caeb9d48880cb91e39f10ce618') in 0.008183 seconds 
+  Import took 0.010975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047714 seconds.
+  path: Assets/LowPolyInterior/Materials/LowPolyInterior_BG.mat
+  artifactKey: Guid(a75042c259caeec4b820b6caab2e1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials/LowPolyInterior_BG.mat using Guid(a75042c259caeec4b820b6caab2e1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a094385d4dbe978de9a973c2076b03d') in 0.075380 seconds 
+  Import took 0.077413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/LowPolyInterior/Materials/LowPolyInterior_Glass.mat
+  artifactKey: Guid(be2c38c1d71f6204bbd3901c1d6551b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials/LowPolyInterior_Glass.mat using Guid(be2c38c1d71f6204bbd3901c1d6551b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac596c0f5ccdda2793a918309924e5d1') in 0.013595 seconds 
+  Import took 0.016013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/LowPolyInterior/Materials/LowPolyInterior_MAIN.mat
+  artifactKey: Guid(0054cbb2942940f46a8872a0c6f7e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials/LowPolyInterior_MAIN.mat using Guid(0054cbb2942940f46a8872a0c6f7e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6259f2c8520fb0521e32e0bb38ec8be8') in 0.013803 seconds 
+  Import took 0.016855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.304399 seconds.
+  path: Assets/LowPolyInterior/Textures
+  artifactKey: Guid(94457007faea64b40b93e895aa077682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Textures using Guid(94457007faea64b40b93e895aa077682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e6825758f2be9f432b771cb3ea3ff3') in 0.007790 seconds 
+  Import took 0.009982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063413 seconds.
+  path: Assets/LowPolyInterior/Textures/Texture_01.png
+  artifactKey: Guid(b6095d854f3b6b148ad58fb37a8f0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Textures/Texture_01.png using Guid(b6095d854f3b6b148ad58fb37a8f0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1fbf2b9bf862758deb80ca05abaa92') in 0.049068 seconds 
+  Import took 0.051850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.316248 seconds.
+  path: Assets/LowPolyInterior/Materials/Texture_01.mat
+  artifactKey: Guid(0d35d6d71029c004e864c080315a417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials/Texture_01.mat using Guid(0d35d6d71029c004e864c080315a417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b6aa7dc1129ee66b1a738c1e27348b') in 0.275141 seconds 
+  Import took 0.277281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.640602 seconds.
+  path: Assets/LowPolyInterior/Models
+  artifactKey: Guid(63b45b95e0cf4314c92f1ac43a7fe34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models using Guid(63b45b95e0cf4314c92f1ac43a7fe34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92afe6fbe7d7746242f91b01ca74cc8') in 0.007786 seconds 
+  Import took 0.009860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058286 seconds.
+  path: Assets/LowPolyInterior/Models/BG.fbx
+  artifactKey: Guid(65d83a9bc427c0a4995df79defd3ba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/BG.fbx using Guid(65d83a9bc427c0a4995df79defd3ba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca61265003467d7f81a8ed46fd5e325') in 0.046966 seconds 
+  Import took 0.048872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.100249 seconds.
+  path: Assets/LowPolyInterior/Models/Curtains
+  artifactKey: Guid(a11914748c590ee4ebd1f5fa210f36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Curtains using Guid(a11914748c590ee4ebd1f5fa210f36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b0c9dcdc170e84c25bf08e2701b3dc') in 0.041010 seconds 
+  Import took 0.043303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.704033 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom
+  artifactKey: Guid(1f9352a14d1b6fc48986fd8596292f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom using Guid(1f9352a14d1b6fc48986fd8596292f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca23b9191efaef49a8eaa6fd17813a5') in 0.006269 seconds 
+  Import took 0.008347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052334 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Bath.fbx
+  artifactKey: Guid(37d5e5876a58b2a4a831aeebbe30154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Bath.fbx using Guid(37d5e5876a58b2a4a831aeebbe30154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31d98ac064f49cd8fe60f85fc77b02d') in 0.017919 seconds 
+  Import took 0.020039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Towel_02.fbx
+  artifactKey: Guid(0927919567bd1db4680d3d31a8630687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Towel_02.fbx using Guid(0927919567bd1db4680d3d31a8630687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525bcee9698456d1b421658c36557958') in 0.021704 seconds 
+  Import took 0.023671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/SoapBottle_02.fbx
+  artifactKey: Guid(fe0e64b7be9337d4ab927e74f032787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/SoapBottle_02.fbx using Guid(fe0e64b7be9337d4ab927e74f032787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb41e67bb9caf5c7103615fcadb01d51') in 0.020935 seconds 
+  Import took 0.023171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/GlassToothbrush_02.fbx
+  artifactKey: Guid(08d058880b84b5342b1407d7f1bef37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/GlassToothbrush_02.fbx using Guid(08d058880b84b5342b1407d7f1bef37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48386e44735b84d0a87bc186f79379c') in 0.024607 seconds 
+  Import took 0.026839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Toilet_02.fbx
+  artifactKey: Guid(e78ce1ff460e81d4ca3fdec12fb03882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Toilet_02.fbx using Guid(e78ce1ff460e81d4ca3fdec12fb03882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83727bce98b2a4795df67d6bc2d4d18') in 0.019965 seconds 
+  Import took 0.021781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Slippers.fbx
+  artifactKey: Guid(2f8d2f316b757a4459837df6ebeaf6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Slippers.fbx using Guid(2f8d2f316b757a4459837df6ebeaf6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99526e66f62f4ecdb1e5d420701187f') in 0.022706 seconds 
+  Import took 0.024901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Boat.fbx
+  artifactKey: Guid(eade3ab39903b2d4dabf7ac10d07eca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Boat.fbx using Guid(eade3ab39903b2d4dabf7ac10d07eca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83718fb2c9705583fb1de4fcd0dbe716') in 0.020522 seconds 
+  Import took 0.022573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerPart_01.fbx
+  artifactKey: Guid(50794742c2e2ade4492945274b9e339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerPart_01.fbx using Guid(50794742c2e2ade4492945274b9e339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c0c700ce4136b83916d8f8bdd9ec23') in 0.019439 seconds 
+  Import took 0.021297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_04.fbx
+  artifactKey: Guid(1ddab90c38640a640b60344aea5fbacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_04.fbx using Guid(1ddab90c38640a640b60344aea5fbacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cef58431801d25cb35bb4f810531cd2') in 0.018615 seconds 
+  Import took 0.020501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Trash_02.fbx
+  artifactKey: Guid(2240e4479ed4dac41a03cb65b32306fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Trash_02.fbx using Guid(2240e4479ed4dac41a03cb65b32306fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbefb6ec579a04b60ba3ad64d48765c0') in 0.018139 seconds 
+  Import took 0.020347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Radiator_01.fbx
+  artifactKey: Guid(fe120e3cb52a5f84e9c3165631046d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Radiator_01.fbx using Guid(fe120e3cb52a5f84e9c3165631046d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2934f6f22a9d10fed6a57c7ac8ad90fd') in 0.017871 seconds 
+  Import took 0.020089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/SoapBottle_01.fbx
+  artifactKey: Guid(e89310a11e7092440b3d6a463c86b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/SoapBottle_01.fbx using Guid(e89310a11e7092440b3d6a463c86b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ccfa708119cfbad890b84057083b8a') in 0.019327 seconds 
+  Import took 0.021226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/GlassToothbrush_01.fbx
+  artifactKey: Guid(c03926dc9f7fe134fb2b343e1e304632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/GlassToothbrush_01.fbx using Guid(c03926dc9f7fe134fb2b343e1e304632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef9dcfd5fbe211e8162703551ba0436') in 0.020535 seconds 
+  Import took 0.022887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerPart_02.fbx
+  artifactKey: Guid(26dac4d7daf3f8f40900f079fb682cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerPart_02.fbx using Guid(26dac4d7daf3f8f40900f079fb682cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9df0de374ddce018460f76e1ed15248') in 0.020210 seconds 
+  Import took 0.022403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Trash_01.fbx
+  artifactKey: Guid(a562c4d24cbb5a24ebfc47348b065b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Trash_01.fbx using Guid(a562c4d24cbb5a24ebfc47348b065b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f65fa2372c8490ce450e3bffb9ccd12') in 0.018812 seconds 
+  Import took 0.021158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Toilet_01.fbx
+  artifactKey: Guid(4f9493ae43f6b774381a306ce63f280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Toilet_01.fbx using Guid(4f9493ae43f6b774381a306ce63f280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7d1a5843bec6630b972c8920180277') in 0.018994 seconds 
+  Import took 0.021544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Washer_01.fbx
+  artifactKey: Guid(6c925734e57b74d4c934333b6750ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Washer_01.fbx using Guid(6c925734e57b74d4c934333b6750ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8865042eb7cd941b3203129090bf89ae') in 0.020211 seconds 
+  Import took 0.022199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerMirror_01.fbx
+  artifactKey: Guid(3989a68acb101124fa795034d2a1b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerMirror_01.fbx using Guid(3989a68acb101124fa795034d2a1b2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f2c471f130ae6a200c0462f40a003a') in 0.021039 seconds 
+  Import took 0.023064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Rangehood.fbx
+  artifactKey: Guid(6b5e1d5fd5316db43817143a6c04cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Rangehood.fbx using Guid(6b5e1d5fd5316db43817143a6c04cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f547fed11db678f420ff83636e1dd5f') in 0.019544 seconds 
+  Import took 0.021413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerTable_02.fbx
+  artifactKey: Guid(5b284645862de5445894cf54c3fdefd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerTable_02.fbx using Guid(5b284645862de5445894cf54c3fdefd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7543df91637d937b1d694bdd2efa234') in 0.019455 seconds 
+  Import took 0.021390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_02.fbx
+  artifactKey: Guid(0a70d6dae42f3584ba3b88becda748df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_02.fbx using Guid(0a70d6dae42f3584ba3b88becda748df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0cc18913d0115aa98a22b7c44949ac') in 0.019633 seconds 
+  Import took 0.021979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerTable_01.fbx
+  artifactKey: Guid(3cb4c571e602b404eba5149272f55baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerTable_01.fbx using Guid(3cb4c571e602b404eba5149272f55baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61402b06d3e0b2240bf9eed2df619ac1') in 0.019969 seconds 
+  Import took 0.021776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Towel_03.fbx
+  artifactKey: Guid(6f59717349249b14f8ad16e291ecc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Towel_03.fbx using Guid(6f59717349249b14f8ad16e291ecc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e471528b2daa9aa68e1bef4acaf5805a') in 0.020922 seconds 
+  Import took 0.022825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_01.fbx
+  artifactKey: Guid(c3fca789a0587304eb835b525412f6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_01.fbx using Guid(c3fca789a0587304eb835b525412f6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80d75e9741f22e204f53977e42d8bc1') in 0.019445 seconds 
+  Import took 0.021297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Toothbrush_02.fbx
+  artifactKey: Guid(2959d5af20b8cf443a77d1b0f9a8467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Toothbrush_02.fbx using Guid(2959d5af20b8cf443a77d1b0f9a8467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ef9941fb8a9308c16f33d3b9132958') in 0.018798 seconds 
+  Import took 0.020820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ToiletPaper.fbx
+  artifactKey: Guid(108f1aa41f05dad47b2ea655ebef04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ToiletPaper.fbx using Guid(108f1aa41f05dad47b2ea655ebef04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbbc579e5dacfabfef1d8c40d3cc06b') in 0.018606 seconds 
+  Import took 0.020406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Towel_01.fbx
+  artifactKey: Guid(519e474c88b5f08489146e491aa758aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Towel_01.fbx using Guid(519e474c88b5f08489146e491aa758aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd5631e549a4b902fb3bc9a451ed59a') in 0.019934 seconds 
+  Import took 0.021869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Shower_01.fbx
+  artifactKey: Guid(85482ce4df610004da9846ded62a13ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Shower_01.fbx using Guid(85482ce4df610004da9846ded62a13ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f742ef2be8e9959d5dfe44a334a063f9') in 0.020079 seconds 
+  Import took 0.022586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_03.fbx
+  artifactKey: Guid(bf04f31386545064f8a035538f3c831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerCarpet_03.fbx using Guid(bf04f31386545064f8a035538f3c831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dbed26219bc54e138612c930efe492') in 0.017934 seconds 
+  Import took 0.020129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Radiator_02.fbx
+  artifactKey: Guid(ec29af0cc334ba643b2520bc5a2a0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Radiator_02.fbx using Guid(ec29af0cc334ba643b2520bc5a2a0cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bffc2df14fbba8c37d10b5782327ad1') in 0.019284 seconds 
+  Import took 0.021280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Shower_02.fbx
+  artifactKey: Guid(a6b794dbd75939d4c996b22c87d82f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Shower_02.fbx using Guid(a6b794dbd75939d4c996b22c87d82f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f238f574db88fc74964af77ecbfe83') in 0.017568 seconds 
+  Import took 0.020047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/Toothbrush_01.fbx
+  artifactKey: Guid(415f216074409504b843f542e704e541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/Toothbrush_01.fbx using Guid(415f216074409504b843f542e704e541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f17cd3bb4c10a1561cbd2ea291bdea') in 0.019813 seconds 
+  Import took 0.021707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/LowPolyInterior/Models/Bathroom/ShowerMirror_02.fbx
+  artifactKey: Guid(21c5cc5e6927a5e40ba1c7b4c29501fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Models/Bathroom/ShowerMirror_02.fbx using Guid(21c5cc5e6927a5e40ba1c7b4c29501fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8674b0c06b31071a1a7f386fcf7acbf') in 0.018887 seconds 
+  Import took 0.020984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.985887 seconds.
+  path: Assets/LowPolyInterior/LowPolyInterior_LWRP_2018.4.unitypackage
+  artifactKey: Guid(ca9b502a9f1c2a641b0a47dea902f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/LowPolyInterior_LWRP_2018.4.unitypackage using Guid(ca9b502a9f1c2a641b0a47dea902f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c3ba37f704a63a68eef1a20e647038') in 0.010817 seconds 
+  Import took 0.013134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.647079 seconds.
+  path: Assets/LowPolyInterior/Materials/LowPolyInterior_BG.mat
+  artifactKey: Guid(a75042c259caeec4b820b6caab2e1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials/LowPolyInterior_BG.mat using Guid(a75042c259caeec4b820b6caab2e1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544572d663f030d1f9a7cbb3b7635489') in 0.009962 seconds 
+  Import took 0.012068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/LowPolyInterior/Materials/LowPolyInterior_Glass.mat
+  artifactKey: Guid(be2c38c1d71f6204bbd3901c1d6551b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials/LowPolyInterior_Glass.mat using Guid(be2c38c1d71f6204bbd3901c1d6551b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3d627d9fd7ac526ea9f33d7f21863a') in 0.013070 seconds 
+  Import took 0.015326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/LowPolyInterior/Materials/LowPolyInterior_MAIN.mat
+  artifactKey: Guid(0054cbb2942940f46a8872a0c6f7e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyInterior/Materials/LowPolyInterior_MAIN.mat using Guid(0054cbb2942940f46a8872a0c6f7e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f086d5d91d215e301c6d139b1a2848d') in 0.011949 seconds 
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.4 MB.
+System memory in use after: 70.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 2.038700 ms (FindLiveObjects: 0.123200 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.860000 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 608.725332 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(80588754db6bd6a4caf94d98156305f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(80588754db6bd6a4caf94d98156305f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98841c0e11bebbee9ca83b15376f3a8d') in 0.009207 seconds 
+  Import took 0.011684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.115448 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.011434 seconds 
+  Import took 0.013679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.592395 seconds.
+  path: Assets/Scenes/Test Default scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Default scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9de63d164cddd17dcea6d70e98b0cb') in 0.007534 seconds 
+  Import took 0.009459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.702046 seconds.
+  path: Assets/Ladymito
+  artifactKey: Guid(2b7279b168fc0284fab60f9fff10790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito using Guid(2b7279b168fc0284fab60f9fff10790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b8970c089c2b72afea44d715eca0f6') in 0.006681 seconds 
+  Import took 0.009022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.726415 seconds.
+  path: Assets/Ladymito/Free_cat
+  artifactKey: Guid(9b9e4e31418ecbe46b884dbf6892122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat using Guid(9b9e4e31418ecbe46b884dbf6892122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3642744f61ba2f8431ee27f2ac8f6a6') in 0.006507 seconds 
+  Import took 0.008543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.824682 seconds.
+  path: Assets/Ladymito/Free_cat/Models
+  artifactKey: Guid(b1fcadf4723ef304c92f1787ac39e2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat/Models using Guid(b1fcadf4723ef304c92f1787ac39e2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945edb575c19ec31b5a5821e050f664d') in 0.006301 seconds 
+  Import took 0.008222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066718 seconds.
+  path: Assets/Ladymito/Free_cat/Models/cat.fbx
+  artifactKey: Guid(9b574434f73c46a4eb333235dd556599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat/Models/cat.fbx using Guid(9b574434f73c46a4eb333235dd556599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebba39fc154cdc8e7077b8de6ca4aec') in 0.091441 seconds 
+  Import took 0.093852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 803.050707 seconds.
+  path: Assets/Ladymito/Free_cat/Animations/low_poly_cat_animation_list.txt
+  artifactKey: Guid(e0bbf5be3a11eee4ea872aaf13da37da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat/Animations/low_poly_cat_animation_list.txt using Guid(e0bbf5be3a11eee4ea872aaf13da37da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d290759ee941384316470d0d14e1e33') in 0.014700 seconds 
+  Import took 0.017506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003976 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 2.134900 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.908400 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 220.355883 seconds.
+  path: Assets/Ladymito/Free_cat/Animations/cat.controller
+  artifactKey: Guid(df2e20b0d1dd9a844b3c911ccf4843ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ladymito/Free_cat/Animations/cat.controller using Guid(df2e20b0d1dd9a844b3c911ccf4843ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb8c19410ed5999063c08e37d6adc83') in 0.016465 seconds 
+  Import took 0.018793 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
+Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Windows/CinemachineSettings.cs:205)
+Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Windows/CinemachineSettings.cs:237)
+Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Windows/CinemachineColliderPrefs.cs:61)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Windows/CinemachineSettings.cs line 205]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (966ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 2.564600 ms (FindLiveObjects: 0.134200 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.336600 ms  DeleteObjects: 0.048100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
